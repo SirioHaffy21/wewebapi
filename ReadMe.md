@@ -2,7 +2,7 @@ Chào bạn! Mình rất sẵn lòng giải thích quy trình này của Git b�
 1. Chuẩn Bị và Lấy Nguyên Liệu (Clone, Checkout, Pull, Fetch)
 Đây là các bước bạn làm để có được tài liệu gốc và cập nhật nó.
 | Lệnh | Ví dụ Không-IT (Viết Sách) | Mục đích |
-|---|---|---|
+|------|----------------------------|----------|
 | git clone | Sao chép cuốn sách gốc. Bạn lấy toàn bộ cuốn sách (mã nguồn) và lịch sử chỉnh sửa của nó về máy tính (bàn làm việc) của mình lần đầu tiên. | Tạo bản sao cục bộ để làm việc. |
 | git checkout | Chọn chương để viết. Bạn chọn một chương (một nhánh hoặc tính năng) cụ thể để làm việc, không phải chương mà mọi người đang đọc. | Chuyển đổi bối cảnh làm việc an toàn. |
 | git fetch | Xem thư thông báo mới nhất. Bạn xem thông báo để biết đồng nghiệp đã viết thêm những gì lên cuốn sách gốc trên máy chủ. | Kiểm tra cập nhật từ người khác mà không thay đổi tài liệu của bạn. |
@@ -10,7 +10,7 @@ Chào bạn! Mình rất sẵn lòng giải thích quy trình này của Git b�
 2. Làm Việc và Công Bố (Add, Commit, Push)
 Đây là các bước bạn thực hiện để ghi lại công việc của mình và chia sẻ nó với mọi người.
 | Lệnh | Ví dụ Không-IT (Viết Sách) | Mục đích |
-|---|---|---|
+|------|----------------------------|----------|
 | git add | Chọn các đoạn vừa viết xong. Bạn quyết định những câu, đoạn nào bạn thấy ưng ý và muốn đưa vào bản lưu. | Đưa thay đổi vào khu vực chờ để lưu lại (Staging Area). |
 | git commit | Đóng dấu/Ghi nhật ký. Bạn chính thức lưu lại (chụp lại) trạng thái của những đoạn đã chọn ở trên, kèm theo một ghi chú (ví dụ: "Đã hoàn thành đoạn mô tả nhân vật chính"). | Tạo một bản ghi lịch sử có thể quay lại được. |
 | git push | Gửi bản hoàn chỉnh lên máy chủ. Bạn gửi các bản ghi lịch sử (commit) vừa tạo lên cuốn sách gốc trên máy chủ để mọi người có thể thấy và sử dụng. | Chia sẻ và công bố công việc của bạn cho đội nhóm. |
